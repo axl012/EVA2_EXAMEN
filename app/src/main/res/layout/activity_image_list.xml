@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="hipo.prop.app.axel.com.eva2_examen.ImageList">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="SELECCIONE IMAGEN:"
+        android:textColor="@android:color/black" />
+
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/image11"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:onClick="onClickImage11"
+                app:srcCompat="@drawable/haighschocolate" />
+
+            <ImageView
+                android:id="@+id/image10"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:onClick="onClickImage10"
+                app:srcCompat="@drawable/grahamavenuemeats" />
+
+            <ImageView
+                android:id="@+id/image9"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:onClick="onClickImage9"
+                app:srcCompat="@drawable/forkeerestaurant" />
+
+            <ImageView
+                android:id="@+id/image8"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:onClick="onClickImage8"
+                app:srcCompat="@drawable/fiveleaves" />
+
+            <ImageView
+                android:id="@+id/image7"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:onClick="onClickImage7"
+                app:srcCompat="@drawable/donostia" />
+
+            <ImageView
+                android:id="@+id/image6"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:onClick="onClickImage6"
+                app:srcCompat="@drawable/confessional" />
+
+            <ImageView
+                android:id="@+id/image5"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:onClick="onClickImage5"
+                app:srcCompat="@drawable/cafelore" />
+
+            <ImageView
+                android:id="@+id/image4"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:onClick="onClickImage4"
+                app:srcCompat="@drawable/cafeloisl" />
+
+            <ImageView
+                android:id="@+id/image3"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:onClick="onClickImage3"
+                app:srcCompat="@drawable/cafedeadend" />
+
+            <ImageView
+                android:id="@+id/image1"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:onClick="onClickImage2"
+                app:srcCompat="@drawable/barrafina" />
+
+            <ImageView
+                android:id="@+id/image2"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                app:srcCompat="@drawable/bourkestreetbakery"
+                android:onClick="onClickImage1"/>
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

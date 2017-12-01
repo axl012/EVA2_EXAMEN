@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="hipo.prop.app.axel.com.eva2_examen.Data">
+
+    <TextView
+        android:id="@+id/txtvw"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DATOS"
+        android:textColor="@android:color/black"
+        android:textSize="24sp" />
+
+    <ImageView
+        android:id="@+id/imgImage"
+        android:layout_width="match_parent"
+        android:layout_height="207dp"
+        android:onClick="onClickImage"
+        app:srcCompat="@drawable/cafelore" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nombre:"
+        android:textColor="@android:color/black" />
+
+    <EditText
+        android:id="@+id/edtxtNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/txttt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Descripcion:"
+        android:textColor="@android:color/black" />
+
+    <EditText
+        android:id="@+id/edtxtDescripcion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/tx"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Direccion y telefono:"
+        android:textColor="@android:color/black" />
+
+    <EditText
+        android:id="@+id/edtxtDireccion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/btnGuardar"
+        android:onClick="onClickGuardar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GUARDAR" />
+
+</LinearLayout>
